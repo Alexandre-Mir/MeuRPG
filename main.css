@@ -4,10 +4,22 @@
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+header nav li a {
+  font-family: "Poppins", sans-serif;
+}
+
 header {
   padding: 16px 0;
   background-color: #182c61;
   color: #ecf0f1;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-weight: 800;
 }
 
 header nav li {
