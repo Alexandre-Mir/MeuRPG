@@ -1,170 +1,170 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  color: #261318;
+	font-family: "Poppins", sans-serif;
+	color: #261318;
 }
 
 header {
-  padding: 16px 0;
-  background-color: #261318;
-  color: #f2d5dd;
+	padding: 16px 0;
+	background-color: #261318;
+	color: #fff;
 }
 
 header .container,
 section .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 header nav li {
-  display: inline;
-  margin-left: 16px;
-  font-size: 1.5em;
-  font-weight: 600;
+	display: inline;
+	margin-left: 16px;
+	font-size: 1.5em;
+	font-weight: 600;
 }
 
 header nav li a {
-  color: #f2d5dd;
-  text-decoration: none;
+	color: #fff;
+	text-decoration: none;
 }
 
 .container {
-  max-width: 1280px;
-  width: 100%;
-  margin: 0 auto;
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
 }
 
 h2 {
-  font-size: 3em;
+	font-size: 3em;
 }
 
 #about {
-  margin: 20px 0;
+	margin: 20px 0;
 }
 
 #about img {
-  width: 50%;
-  margin-right: 20px;
+	width: 100%;
+	margin-right: 20px;
 }
 
 #about .container {
-  align-items: flex-start;
+	align-items: flex-start;
 }
 
 #about div h2,
 #about div p,
 #games {
-  color: #261318;
+	color: #261318;
 }
 
 #games .container {
-  padding: 20px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+	padding: 20px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
 #games ul {
-  display: flex;
+	display: flex;
 }
 
 #games li {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
 }
 
 #games li img {
-  width: 100%;
-  height: 100%;
-  transition: transform 0.3s ease;
-  object-fit: cover;
-  padding: 10px;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.3s ease;
+	object-fit: cover;
+	padding: 10px;
 }
 
 #games li div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6); /* Fundo preto com opacidade */
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
-  opacity: 0; /* Escondido inicialmente */
-  transition: opacity 0.3s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6); /* Fundo preto com opacidade */
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	opacity: 0; /* Escondido inicialmente */
+	transition: opacity 0.3s ease;
 }
 
 #games li:hover img {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 #games li:hover div {
-  opacity: 1;
+	opacity: 1;
 }
 
 #contact .container {
-  display: block;
+	display: block;
 }
 
 .contact-methods {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 form input,
 form textarea,
 form button {
-  display: block;
-  width: 320px;
-  margin-bottom: 8px;
-  padding: 8px;
+	display: block;
+	width: 320px;
+	margin-bottom: 8px;
+	padding: 8px;
 }
 
 form textarea {
-  resize: none;
-  height: 180px;
+	resize: none;
+	height: 180px;
 }
 
 form button {
-  background-color: #261318;
-  color: #f2d5dd;
-  border: none;
-  cursor: pointer;
+	background-color: #261318;
+	color: #f2d5dd;
+	border: none;
+	cursor: pointer;
 }
 
 form button:hover {
-  background-color: #663c47;
+	background-color: #663c47;
 }
 
 input:focus,
 textarea:focus {
-  outline-color: #261318;
+	outline-color: #261318;
 }
 
 .social-links {
-  display: flex;
-  justify-content: flex-end;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .social-links img {
-  height: 24px;
+	height: 24px;
 }
 
 .social-links li {
-  display: inline;
-  margin-right: 8px;
+	display: inline;
+	margin-right: 8px;
 }
 
 .social-links li a {
-  text-decoration: none;
+	text-decoration: none;
 }
